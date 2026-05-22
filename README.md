@@ -1,167 +1,94 @@
-<p align="center">
-  <a href="https://nav3.cn/?g">
-    <img src="https://gcore.jsdelivr.net/gh/liuzi6612/public@gh-pages/nav/logo.svg" width="130" />
-  </a>
-  <br />
-  <b>发现导航</b>
-  <p align="center">一个纯静态、支持SEO、在线编辑的强大导航网站，希望您会喜欢</p>
-  <p align="center">内置收录多达 800+ 优质网站， 助您工作、学习和生活</p>
-  <p align="center">
-    <a href="README_EN.md"><img alt="english" src="https://img.shields.io/static/v1.svg?label=&message=English&style=flat-square&color=ff5000"></a>
-    <img src="https://img.shields.io/github/v/release/liuzi6612/nav" />
-    <a href="https://github.com/liuzi6612/nav/stargazers"><img src="https://img.shields.io/github/stars/liuzi6612/nav" alt="Stars"/></a>
-    <img alt="Angular" src="https://img.shields.io/static/v1.svg?label=&message=Angular&style=flat-square&color=C82B38">
-    <img src="https://img.shields.io/github/license/liuzi6612/nav" />
-  </p>
-</p>
+# 🚀 Simone 导航站
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="
-      https://api.star-history.com/svg?repos=liuzi6612/nav&type=Date&theme=dark
-    "
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="
-      https://api.star-history.com/svg?repos=liuzi6612/nav&type=Date
-    "
-  />
-  <img
-    alt="Star History Chart"
-    src="https://api.star-history.com/svg?repos=liuzi6612/nav&type=Date"
-  />
-</picture>
+一个基于 [liuzi6612/nav](https://github.com/liuzi6612/nav) 深度定制的个性化书签管理与静态导航系统。
 
-## 设计理念
+![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/YOUR_REPO/build-web.yml?branch=main&label=Build%20Status&style=flat-square)
+![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=flat-square)
 
-无数据库、无服务器、零成本一键部署、开箱即用，但又可以像数据库那样操纵数据和保存。
+## 🌟 站点简介
 
-好用、简单、强大。
+**Simone 导航站** 致力于收集和整理数字化时代的优质资源。本项目复刻自知名开源导航项目，通过 GitHub Actions 自动化构建，旨在打造一个极简、纯净、高效的资源索引中心。
 
-[谁在使用？](https://official.nav3.cn/?id=3)
+### 📂 核心收录领域
+- 💻 **技术前沿**：计算机科学、互联网、硬核科技、AI 人工智能、Vibecoding。
+- 👨‍💻 **开发者之路**：编程学习、代码实践、开源项目。
+- 📢 **数字营销**：自媒体运营、新媒体、短视频、广告营销、流量变存。
+- 📖 **深度阅读**：书籍资源分享、读后感记录、笔记管理、知识库搭建。
+- 🔓 **开源共享**：
+  - **学习资源**：论文、电子书、教学视频、音频课。
+  - **生产力工具**：职场资源、软件、移动端 App、浏览器插件、在线工具。
+  - **影音娱乐**：国内外优质影视资源、兴趣社群。
 
-## 特性
+---
 
-- 🍰 内置 `800+` 优质网站
-- 🍰 支持 [码云 Gitee](https://gitee.com/xiejiahe/nav)
-- 🍰 支持 [GitLab](https://gitlab.com/liuzi6612/nav)
-- 🍰 支持从浏览器书签导入
-- 🍰 支持将数据导出到浏览器书签
-- 🍰 支持 AI 翻译
-- 🍰 支持用户提交新增、编辑、删除
-- 🍰 支持自有部署(pm2|Docker|宝塔)/Fork
-- 🍰 支持分类/网站移动和引用
-- 🍰 支持 SEO 搜索引擎
-- 🍰 支持网站关联多个网址或标签
-- 🍰 支持检测网站存活状态
-- 🍰 支持配置仅自己可见
-- 🍰 支持自动抓取网站图标/名称/描述
-- 🍰 支持小组件个性化定制
-- 🍰 支持暗黑模式
-- 🍰 支持后台管理, 无需部署
-- 🍰 支持足迹记忆
-- 🍰 支持多种搜索查询
-- 🍰 支持自定义引擎搜索
-- 🍰 支持卡片广告展示
-- 🍰 支持 PWA 应用
-- 🍰 多款高颜值主题切换
-- 🍰 强大的响应式系统
-- 🍰 多种 Loading 加载动画
-- 🍰 多种卡片风格设计
-- 🍰 完全纯静态, 提供自动化部署功能
-- 🍰 三叉树分类、结构清晰、分类清晰
+## 🛠 核心功能
 
-## 预览
+- **自动化流水线**：基于 GitHub Actions，修改 `db.json` 或 `bookmarks.html` 后自动触发构建。
+- **数据驱动渲染**：前端页面根据 `data/db.json` 自动生成分类和卡片。
+- **书签一键导入**：支持将浏览器导出的 HTML 书签文件批量转化为导航条目。
+- **响应式布局**：完美适配 PC、平板与手机端，随时随地查阅资源。
 
-- [https://nav3.cn](https://nav3.cn)
+---
 
-![Preview](https://gcore.jsdelivr.net/gh/liuzi6612/public@gh-pages/nav/preview.gif)
+## 🚀 快速上手
 
-## 可以干嘛
-
-- 部署公司内部导航系统，统一管理常用链接
-- 个人书签管理，替代浏览器收藏夹
-- 个人导航网站，分享、价值、发现
-
-## 部署
-
-零成本部署，像数 `321` 一样简单。
-
-#### gh-pages (免费)
-
-1、右上角点击 `Fork` 当前项目。
-
-2、[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new) 申请 `token`, 勾选读写权限, 复制并保存 Token。
-
-3、打开 https://github.com/你的用户名/nav/actions 检查是否已开启 action 自动部署
-
-4、修改项目根目录配置文件 [nav.config.yaml](nav.config.yaml) 只需要修改仓库地址 `gitRepoUrl` 字段
-
-5、打开 https://你的用户名.github.io/nav 就能看到一个非常强大的导航网站了。
-
-如果打开 404，请打开 https://github.com/你的用户名/nav/settings/pages 检查分支是否是 **gh-pages**。
-
-#### Netlify 推荐(免费)
-
-打包路径 `dist/browser`
-
-[https://www.netlify.com/](https://www.netlify.com/)
-
-#### Vercel 推荐(免费)
-
-[https://github.com/apps/vercel](https://github.com/apps/vercel)
-
-#### Cloudflare pages 推荐(免费)
-
-[https://www.cloudflare.com/zh-cn](https://www.cloudflare.com/zh-cn)
-
-## 配置说明
-
-只需要修改根目录 `nav.config.yaml` 以下相关字段
-|Fork |自有部署 | 字段 | 说明 |
-| --------------------------------------------- | -------- |--- |--- |
-|√ | | gitRepoUrl | 填写您的仓库地址 |
-|√ | | branch | 部署分支 |
-|√ | | imageRepoUrl | 图片仓库, 默认主仓库 `https://github.com/liuzi6612/image?branch=main` |
-|√ | √| hashMode | 路由是否 Hash 模式, 如果是部署在 `github pages` 务必设为 true |
-|√ | √| email | 用户提交收录通知 |
-| | √| password | 自有部署登录密码，`Fork` 用户无需填写 |
-| | √| address | 自有部署, 一旦填写认为你是自有部署 |
-| | √| mailConfig | 自有部署，用户收录通知邮箱配置 |
-
-## 后台
-
-将路由地址修改为 `system` 即可进入，如: https://www.nav3.cn 修改为 https://www.nav3.cn/system
-
-## 升级
-
-将你的仓库克隆下来执行以下命令
-
-```bash
-git pull
-git remote add upstream https://github.com/liuzi6612/nav.git
-git fetch upstream main
-git merge upstream/main --allow-unrelated-histories --no-edit
-git push
-
-# 如果安装了node只需执行
-npm run update
+### 1. 资源添加与修改
+所有数据存放在 `data/db.json`。按照以下格式添加新资源：
+```json
+{
+  "category": "计算机",
+  "links": [
+    {
+      "name": "示例网站",
+      "url": "https://example.com",
+      "desc": "这是一个网站描述",
+      "icon": "https://example.com/favicon.ico"
+    }
+  ]
+}
 ```
 
-## 支持
+### 2. 批量导入书签
+1. 将浏览器导出的 `bookmarks.html` 放入仓库。
+2. 运行脚本解析书签并更新 `db.json`。
+3. 提交代码：`git add . && git commit -m "Update links" && git push`。
 
-项目于 2018 年到至今一直坚持维护和开源, 经过 N 次的迭代与优化, 如果项目能帮到您是我的荣幸。
+---
 
-您可以请作者喝杯咖啡，继续战斗下去
+## ⚙️ 构建与维护
 
-<img src="https://gcore.jsdelivr.net/gh/liuzi6612/public@gh-pages/img/32.png" width="600">
+本项目使用 GitHub Actions 进行部署。
 
-## LICENSE
+- **自动构建**：每次 Push 到 `main` 分支都会触发 `Build web`。
+- **统计同步**：若发现页面展示数量与统计不符，请检查 `db.json` 中的嵌套层级是否过深，建议保持在两层以内以获得最佳展示效果。
 
-For commercial sites, themes, projects, and applications, keep your source code private/proprietary by purchasing a [Commercial License](https://official.nav3.cn/pricing).
+---
+## 后台管理
+根据你的部署方式，选择对应的后台进入路径：
 
-Licensed under the GNU General Public License 3.0 for compatible open source projects and non-commercial use.
+- **官方/根域名部署：** 将路由修改为 `/system`，例如 `https://nav3.cn/system`
+- **GitHub Pages 子目录部署（当前模式）：** 
+  访问路径应包含 `/#/system/web`，例如：
+  `https://simone-techaigc.github.io/nav-simone/#/system/web`
 
-Copyright 2024-present xiejiahe
+> **提示：** 登录前请确保已按照 [部署说明](#部署) 申请并正确配置了 GitHub Token，否则后台无法保存数据。
+## 📂 目录结构
+
+```text
+.
+├── .github/workflows/   # 自动化部署工作流
+├── data/                # 核心数据库 (db.json)
+├── public/              # 静态资源文件
+├── scripts/             # 书签解析、统计、数据处理脚本
+├── index.html           # 导航站模板
+└── README.md            # 项目说明文档
+```
+
+---
+
+## 🤝 鸣谢
+
+- 感谢项目原型 [liuzi6612/nav](https://github.com/liuzi6612/nav) 提供的优秀框架。
+
+---
+*Powered by Simone | 持续收集，终身学习。*
